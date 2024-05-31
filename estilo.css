@@ -46,6 +46,7 @@ nav .logo{
 nav .logo img{
     width: 30px;
     height: 30px;
+    border-radius: 30px;
 }
 
 nav .logo a{
@@ -93,6 +94,24 @@ nav button:hover,
 
 nav button i{
     font-size: 20px;
+}
+
+nav .button-link{
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #000000;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+nav .button-link:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .hero{
@@ -179,11 +198,29 @@ nav button i{
     color: #fff;
 }
 
-.hero .left-section .top .buttons button.git:hover{
+.buttons .git{
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #000000;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.buttons .git:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.hero .left-section .top .buttons button.git,
+.projeto .itens .item button{
     background: #000;
     color: #fff;
-    border-color: transparent;
 }
+
 
 .hero .left-section .bottom p{
     font-size: 14px;
